@@ -73,7 +73,7 @@ This project is designed to monitor environmental conditions of a plant, includi
 
 **Rahul B**  
 1st Year B.Tech | Embedded & IoT Enthusiast  
-GitHub: [github.com/yourusername](https://github.com/yourusername)
+GitHub: [github.com/yourusername](https://github.com/RahulSPB)
 
 ---
 
