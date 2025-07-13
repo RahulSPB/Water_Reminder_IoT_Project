@@ -61,7 +61,7 @@ This project is designed to monitor environmental conditions of a plant, includi
 ## 📹  Video
 
 > *(Located in `/Videos/` folder or linked here)*  
-[▶️ Watch Demo of Working System](./Videos/Video_1.mp4)
+[▶️ Watch Video of Working System](https://drive.google.com/file/d/14xUpk34x8UfeaVOeBAp0LRyfbgWHzMuS/view?usp=sharing)
 
 ---
 
