@@ -1,4 +1,4 @@
-#include <WiFi.h>
+#include <WiFi.h>  
 #include <WiFi.h>
 #include "ThingSpeak.h"
 #include "DHT.h"
@@ -14,14 +14,12 @@ const char* ssid = "YOUR SSID";   // your network SSID (name)
 const char* password = "PASSWORD";   // your network password
 WiFiClient  client;
 
-unsigned long myChannelNumber = XXXXXXX;
-const char * myWriteAPIKey = "Z36QIP4REJXXXXXX";
+unsigned long myChannelNumber = XXXXXXX;  //your Thingspeak ChannelNumber
+const char * myWriteAPIKey = "Z36QIP4REJXXXXXX";  //your WriteAPIKey
 
 // Timer variables
 unsigned long lastTime = 0;
-unsigned long timerDelay = 30000;
-
-// Variable to hold temperature readings
+unsigned long timerDelay = 30000;  //30 Seconds delay
 
 
 
@@ -63,7 +61,7 @@ void loop() {
      
     
       // Check if any reads failed and exit early (to try again).
-      if (isnan(h) || isnan(t)) 
+      if (isnan(h) || isnan(t))   //used only for float values 
       {
         Serial.println(F("Failed to read from DHT sensor!"));
         return;
@@ -85,7 +83,7 @@ void loop() {
         }
         lastTime = millis();
       }
-       Serial.print("Humidity: "); 
+       Serial.print("Humidity: ");   //to print values in serial moniter
        Serial.print(h); 
        Serial.print(" %\t");
        Serial.print("Temp: "); 
